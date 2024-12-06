@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Decentralized Autonomous Organization (DAO) Platform
 
 A modern, full-featured DAO platform built with React and blockchain technologies. This platform enables decentralized governance through proposal creation, voting, and token management.
@@ -187,3 +188,6 @@ Project Link: [https://github.com/yourusername/dao-platform](https://github.com/
 - [Wagmi](https://wagmi.sh/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Heroicons](https://heroicons.com/)
+=======
+# DAO-Blockchain-Project
+>>>>>>> 07f7178ebfd406b1a7f9d15d2f8647447c9127ac
