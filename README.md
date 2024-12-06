@@ -1,70 +1,42 @@
-<<<<<<< HEAD
 # Decentralized Autonomous Organization (DAO) Platform
 
-A modern, full-featured DAO platform built with React and blockchain technologies. This platform enables decentralized governance through proposal creation, voting, and token management.
+A modern DAO platform built with React and blockchain technologies, enabling decentralized governance through proposal creation, voting, and token management.
 
-![DAO Platform](./screenshots/dashboard.png)
+Watch the demo dashboard : https://github.com/user-attachments/assets/fe37d4e9-a8dd-4e2e-a63a-5d702b1cb612
 
-## 🌟 Features
+## 🌟 Key Features
 
 ### 💫 Proposal Management
 - Create and manage governance proposals
-- Comprehensive proposal lifecycle:
-  - Pending
-  - Active
-  - Canceled
-  - Defeated
-  - Succeeded
-  - Queued
-  - Expired
-  - Executed
+- Comprehensive proposal lifecycle (Pending, Active, Canceled, Defeated, Succeeded, Queued, Expired, Executed)
 - Real-time proposal status tracking
 - Time remaining countdown for active proposals
-- Detailed proposal views with voting statistics
 
 ### 🗳️ Voting System
 - Token-based voting mechanism
 - Support for Yes/No voting with reasoning
-- Real-time vote counting and result display
+- Real-time vote counting
 - Vote delegation capabilities
-- Voting history tracking
-- Visual vote distribution displays
 
 ### 💰 Token Management
 - Admin token minting functionality
 - Token delegation for voting power
 - Token balance tracking
 - Voting power visualization
-- Token transfer capabilities
-
-### 👥 User Management
-- Wallet connection via RainbowKit
-- Role-based access control
-- Admin dashboard for governance
-- Member directory
-- Activity tracking
-
-### 🎨 Modern UI/UX
-- Dark theme with gradient accents
-- Responsive design for all devices
-- Interactive modals and transitions
-- Real-time updates
-- Accessibility-focused design
 
 ## 🛠️ Technical Stack
 
 ### Frontend
-- **React (Vite)**: Fast, modern frontend framework
-- **Tailwind CSS**: Utility-first CSS framework
-- **RainbowKit**: Wallet connection management
-- **Wagmi**: React Hooks for Ethereum
-- **Heroicons**: Beautiful UI icons
+- React (Vite)
+- Tailwind CSS
+- RainbowKit (Wallet Connection)
+- Wagmi (Web3 Hooks)
+- Heroicons
 
 ### Blockchain
-- **Solidity**: Smart contract development
-- **OpenZeppelin**: Secure contract libraries
-- **Sepolia**: Ethereum testnet support
-- **Ethers.js**: Ethereum interaction library
+- Solidity Smart Contracts
+- OpenZeppelin Libraries
+- Sepolia Testnet Support
 
 ## 🚀 Getting Started
 
@@ -75,105 +47,46 @@ A modern, full-featured DAO platform built with React and blockchain technologie
 
 ### Installation
 
-1. Clone the repository
-```bash
+1. Clone the repository and install dependencies
+bash
 git clone https://github.com/yourusername/dao-platform.git
 cd dao-platform
-```
-
-2. Install dependencies
-```bash
 npm install
-# or
-yarn install
-```
 
-3. Set up environment variables
-```bash
+
+2. Set up environment variables
+bash
 cp .env.example .env
-```
-Edit `.env` with your configuration:
-```
-VITE_INFURA_ID=your_infura_id
-VITE_CONTRACT_ADDRESS=your_contract_address
-```
+# Edit .env with your configuration
 
-4. Start the development server
-```bash
+
+3. Start the development server
+bash
 npm run dev
-# or
-yarn dev
-```
 
-## 🏗️ Project Structure
 
-```
-dao-platform/
-├── src/
-│   ├── components/        # React components
-│   ├── contracts/        # Smart contract ABIs
-│   ├── hooks/           # Custom React hooks
-│   ├── context/         # React context providers
-│   ├── utils/           # Utility functions
-│   └── App.jsx          # Main application
-├── public/              # Static assets
-└── contracts/           # Solidity smart contracts
-```
+## 💻 Basic Usage
 
-## 💻 Usage
-
-### Creating a Proposal
+### Proposals and Voting
 1. Connect your wallet
-2. Navigate to the Proposals section
-3. Click "Create Proposal"
-4. Fill in proposal details
-5. Submit and pay gas fees
+2. Create or vote on proposals
+3. Track proposal status and voting results
 
-### Voting on Proposals
-1. Browse active proposals
-2. Click "Cast Vote" on a proposal
-3. Choose Yes/No and optionally add reasoning
-4. Confirm transaction
+### Token Management
+- Delegate tokens for voting power
+- Admin can mint new tokens
+- Track token balances and voting power
 
-### Delegating Votes
-1. Click "Delegate Tokens" in the header
-2. Enter delegate address (or leave empty for self-delegation)
-3. Confirm delegation transaction
-
-### Minting Tokens (Admin Only)
-1. Access admin dashboard
-2. Click "Mint Tokens"
-3. Enter recipient address and amount
-4. Confirm minting transaction
-
-## 🔐 Security
-
+## 🔐 Security Features
 - Smart contract auditing
 - Role-based access control
 - Secure wallet integration
 - OpenZeppelin security standards
-- Input validation and sanitization
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-```bash
-git checkout -b feature/AmazingFeature
-```
-3. Commit changes
-```bash
-git commit -m 'Add AmazingFeature'
-```
-4. Push to branch
-```bash
-git push origin feature/AmazingFeature
-```
-5. Open a Pull Request
 
 ## 📜 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See LICENSE for more information.
+
 
 ## 📞 Contact
 
@@ -188,6 +101,3 @@ Project Link: [https://github.com/yourusername/dao-platform](https://github.com/
 - [Wagmi](https://wagmi.sh/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Heroicons](https://heroicons.com/)
-=======
-# DAO-Blockchain-Project
->>>>>>> 07f7178ebfd406b1a7f9d15d2f8647447c9127ac
