@@ -90,9 +90,9 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ## 📞 Contact
 
-Your Name - [@yourusername](https://twitter.com/yourusername)
+Your Name - Jisha S
 
-Project Link: [https://github.com/yourusername/dao-platform](https://github.com/yourusername/dao-platform)
+Project Link: https://github.com/Jisha-30/DAO-Blockchain-finalproject.git
 
 ## 🙏 Acknowledgments
 
